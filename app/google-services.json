@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "472108980100",
+    "firebase_url": "https://instachat-97e2b.firebaseio.com",
+    "project_id": "instachat-97e2b",
+    "storage_bucket": "instachat-97e2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472108980100:android:c3bec323886f0ff5",
+        "android_client_info": {
+          "package_name": "com.example.guest.instachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472108980100-qp97ukuhhlq3t7le7sak0df64h84852a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guest.instachat",
+            "certificate_hash": "306EDAE02D855C634AD68FE41B425C7811A37856"
+          }
+        },
+        {
+          "client_id": "472108980100-36s8031630gpkkh9sjv27kts3qmampno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_sTEtTfBvrQiL3BiKQOd1w3oNhvu4W0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472108980100-36s8031630gpkkh9sjv27kts3qmampno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
