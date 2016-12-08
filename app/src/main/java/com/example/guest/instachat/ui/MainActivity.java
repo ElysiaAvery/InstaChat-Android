@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener mAuthListener;
     private ArrayAdapter mAdapter;
     @Bind(R.id.availableToChat) ListView mAvailableToChat;
-    User currentUser;
+    User currentUser = new User("", "", "");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     currentUser.setmName(user.getDisplayName());
                     currentUser.setmEmail(user.getEmail());
                     currentUser.setmUid(user.getUid());
-                    Log.d("Current user: ", currentUser.getmName() + ", " + currentUser.getmEmail() + ", " + currentUser.getmUid());
+                    Log.d("Current user: ", currentUser.getmUid());
                 } else {
 
                 }
